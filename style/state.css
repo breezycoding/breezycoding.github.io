@@ -1,0 +1,44 @@
+.minimize_container:hover, .maximize_container:hover{
+	background: #E5E5E5;
+}
+.close_container:hover{
+	background: #E81123;
+	color:#fff;
+}
+.command_prompt_bar:hover{
+	background: #055693;
+}
+.command_prompt.open_cmd{
+	opacity:1;
+}
+.command_prompt.minimize_close{
+	opacity:0;
+	width:0%;
+	top:101%;
+	left: 45px;
+}
+.command_prompt.maximize_open{
+	height:100%;
+	width:100%;
+	top:0%;
+}
+.command_prompt_bar.display_bar{
+	display:block;
+}
+.contents_container.contents_container_open{height:100%;}
+.command_prompt.close_container_close{visibility:hidden;}
+.gmail:hover, .github:hover, .linkedin:hover, .start_cmd:hover{
+	color:#fff;
+	background-color:#3266CC;
+}
+.start_menu_container.close_open_start_menu{
+	bottom: 32px;
+	opacity: 1;
+}
+.start_cmd.start_cmd_remove{
+	display:none;
+}
+.highlight_red{
+	box-shadow: 0 0 5px rgba(255, 50, 50, 1);
+	border: 1px solid rgba(255, 50, 50, 1);
+}
