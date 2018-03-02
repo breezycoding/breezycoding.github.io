@@ -1,0 +1,62 @@
+@media only screen and (max-width:700px){
+	.wrapper{
+		overflow:visible;
+	}
+	.command_prompt_container{height:max-content;}
+	.command_prompt{
+		position: relative;
+    	margin-top: 95px;
+		height:auto;
+		width: 100%;
+	}
+	.command_prompt.maximize_open{margin-top:0;}
+	.start_menu_container{width:100%;}
+	.start_menu_container.close_open_start_menu{
+		top: 0;
+		left: 0;
+		opacity: 1;
+		width: 100%;
+	}
+	.body_left, .body_right {
+    	min-height: 140px;
+	}
+	.start_cmd{margin-top:0px;}
+	.contents_container{height:285px;}
+	.form_input{width:78%;}
+}
+@media only screen and (max-width:480px){
+	p, h3{font-size:12px}
+	.command_prompt_bar{
+		margin-left: 110px;
+		width:35%;
+	}
+	.command_prompt_bar p {
+    	margin-top: 11px;
+		font-size:10px;
+	}
+	.command_prompt_bar .icon_img p {
+		margin-top: -1px;
+		font-size: 7px;
+	}
+	
+}
+@media only screen and (max-width:390px){
+	p, h3{font-size:10px;}
+	.command_prompt_bar {
+   		margin-left: 95px;
+	}
+	.command_prompt_bar p {
+		margin-top: 12px;
+		font-size: 8px;
+	}
+	.greener_head, .sel_menu{font-size:12px;}
+	.form_input{font-size:10px;}
+	.start_menu_body p, .start_menu_body h3 {
+    	font-size: 10px;
+	}
+	.icon_img p{font-size:7px;}
+}
+@media only screen and (max-width:330px){
+	.command_prompt_bar,.command_prompt_bar.display_bar{display:none;}
+	.form_input {width: 75%;}
+}
