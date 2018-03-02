@@ -2,17 +2,21 @@
 	.wrapper{
 		overflow:visible;
 	}
-	.command_prompt_container{height:max-content;}
+	.command_prompt_container{
+		height:auto;
+		//z-index: 2;
+	}
 	.command_prompt{
 		position: relative;
-    	margin-top: 95px;
+    	//margin-top: 95px;
 		height:auto;
 		width: 100%;
+		
 	}
 	.command_prompt.maximize_open{margin-top:0;}
 	.start_menu_container{width:100%;}
 	.start_menu_container.close_open_start_menu{
-		top: 0;
+		bottom: 32px;
 		left: 0;
 		opacity: 1;
 		width: 100%;
