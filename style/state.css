@@ -13,9 +13,9 @@
 }
 .command_prompt.minimize_close{
 	opacity:0;
-	width:0%;
+	//width:0%;
 	top:101%;
-	left: 45px;
+	//left: 45px;
 }
 .command_prompt.maximize_open{
 	height:100%;
@@ -25,7 +25,7 @@
 .command_prompt_bar.display_bar{
 	display:block;
 }
-.contents_container.contents_container_open{height:100%;}
+.contents_container.contents_container_open{height:95%;}
 .command_prompt.close_container_close{visibility:hidden;}
 .gmail:hover, .github:hover, .linkedin:hover, .start_cmd:hover{
 	color:#fff;

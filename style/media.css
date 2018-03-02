@@ -3,7 +3,8 @@
 		overflow:visible;
 	}
 	.command_prompt_container{
-		height:auto;
+		//height:316px;
+		height:602px;
 		//z-index: 2;
 	}
 	.command_prompt{
@@ -11,6 +12,7 @@
     	//margin-top: 95px;
 		height:auto;
 		width: 100%;
+		top:0%;
 		
 	}
 	.command_prompt.maximize_open{margin-top:0;}
@@ -25,7 +27,15 @@
     	min-height: 140px;
 	}
 	.start_cmd{margin-top:0px;}
-	.contents_container{height:285px;}
+	.contents_container{
+		height:285px;
+		
+		-webkit-transition: height 0.2s ease-in-out, opacity 0.2s ease-out;
+		-moz-transition: height 0.2s ease-in-out, opacity 0.2s ease-out;
+		-ms-transition: height 0.2s ease-in-out, opacity 0.2s ease-out;
+		-o-transition: height 0.2s ease-in-out, opacity 0.2s ease-out;
+		transition: height 0.2s ease-in-out, opacity 0.2s ease-out;
+	}
 	.form_input{width:78%;}
 }
 @media only screen and (max-width:480px){
